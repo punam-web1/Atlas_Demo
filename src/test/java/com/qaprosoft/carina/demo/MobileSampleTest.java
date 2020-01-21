@@ -30,7 +30,7 @@ public class MobileSampleTest extends AbstractTest {
 	public void setCustCaps(String jenkinsJobEnvironment) throws Exception{
 		String propFile = propertiesFile(jenkinsJobEnvironment);
 		
-		String path = "src/main/resources/m1Cloud/android/"+propFile;
+		String path = "src/main/resources/m1Cloud/android/"jenkinsJobEnvironmente;
 		Properties prop = new Properties();
 		InputStream input = new FileInputStream(path);
 		prop.load(input);

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.876656">
-<testcase classname="Create User Details" name="Verify user creation" time="2.876656">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="32.239487">
+<testcase classname="Create User Details" name="Verify user creation" time="32.239487">
 <system-out><![CDATA[Given Post endpoint given...................................................passed
 When Enter Username and Job.................................................passed
 Then Post the api...........................................................passed

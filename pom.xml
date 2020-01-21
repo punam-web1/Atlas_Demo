@@ -4,10 +4,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.qaprosoft</groupId>
-	<artifactId>carina-demo</artifactId>
+	<artifactId>Atlas_Demo</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
-	<name>Carina Demo</name>
+	<name>Atlas_Demo</name>
 	<url>http://www.qaprosoft.com/</url>
 
 	<properties>

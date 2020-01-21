@@ -1,13 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite verbose="1" name="End to End Carina API Test" skipfailedinvocationcounts="false" junit="false" data-provider-thread-count="1" parallel="tests" annotations="JDK">
+<suite verbose="1" name="End to End Carina API Test_Punam" skipfailedinvocationcounts="false" junit="false" data-provider-thread-count="1" parallel="tests" annotations="JDK">
 
 	<listeners>
 		<listener class-name="com.qaprosoft.zafira.listener.ZafiraListener"/>
 	</listeners>
 
-	<parameter name="suiteOwner" value="qpsdemo"/>
-	<parameter name="zafira_project" value="CarinaTraining"/>
+	<parameter name="suiteOwner" value="nilesh"/>
+	<parameter name="zafira_project" value="TataDigital_Demo"/>
 <!-- 	<parameter name="jenkinsJobCreation" value="true"/>
 	<parameter name="jenkinsJobName" value="API-Demo-Test"/>
 	<parameter name="jenkinsJobType" value="api"/>

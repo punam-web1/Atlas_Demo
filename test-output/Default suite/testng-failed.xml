@@ -3,11 +3,13 @@
 <suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" data-provider-thread-count="1">
   <test thread-count="1" name="Default test(failed)">
     <classes>
-      <class name="com.qaprosoft.carina.demo.ProposalSubmissionTest">
+      <class name="com.qaprosoft.carina.demo.WebSampleTest">
         <methods>
-          <include name="Proposal_Submission"/>
+          <include name="testModelSpecs" invocation-numbers="0 1 2"/>
+          <include name="testCompareModels"/>
+          <include name="testNewsSearch"/>
         </methods>
-      </class> <!-- com.qaprosoft.carina.demo.ProposalSubmissionTest -->
+      </class> <!-- com.qaprosoft.carina.demo.WebSampleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

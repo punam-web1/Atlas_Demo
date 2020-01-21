@@ -17,7 +17,7 @@ import com.qk.carina.demo.api.POSTProposalSubmission;
 public class ProposalSubmissionTest extends AbstractTest{
 
 	@Test(dataProvider = "DataProvider", description ="Testing Policy Quote API", threadPoolSize = 100,invocationCount = 25,timeOut = 1800000)
-    @MethodOwner(owner = "admin")
+    @MethodOwner(owner = "nilesh")
 	@TestPriority(Priority.P3)
 	@TestTag(name = "Squad", value = "offer_squad1")
     @TestTag(name = "test_type", value = "end-2-end")
