@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test" parallel="true">
+  <test name="First3">
+  <parameter name="device" value="OPPO A9 2020"></parameter>
+  <parameter name="runas" value="grid"></parameter>
+  <parameter name="platform" value="mobile"></parameter>
+  <parameter name="runon" value="23096879"></parameter>
+ 
+    <classes>
+      <class name="generateTokenRunner"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+  
+  <test name="First4">
+  <parameter name="device" value="VivoS1"></parameter>
+  <parameter name="runas" value="grid"></parameter>
+  <parameter name="platform" value="mobile"></parameter>
+  <parameter name="runon" value="WO5HOZSS9D85DQKJ"></parameter>
+  
+    <classes>
+      <class name="CreateBankaccountRunner"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

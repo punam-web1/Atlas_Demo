@@ -1,42 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
+    <line>
+      <![CDATA[CPH1937 - 23096879 TEST [Default test - feature] FAILED at [18:54:56 2020-01-24] - java.lang.RuntimeException: There is no any class that satisfy to required conditions: [parent class - com.qaprosoft.carina.demo.mobile.gui.pages.common.firstCry_YearPage], [device type - ANDROID_PHONE]
+
+cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+com.qaprosoft.carina.core.foundation.cucumber.CucumberRunner.feature(CucumberRunner.java:56)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38129" started-at="2020-01-21T13:10:47Z" finished-at="2020-01-21T13:11:26Z">
+  <suite name="Default suite" duration-ms="397665" started-at="2020-01-24T13:18:23Z" finished-at="2020-01-24T13:25:00Z">
     <groups>
       <group name="cucumber">
-        <method signature="CucumberRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qaprosoft.carina.demo.API_CreateUserCucumberTest@471a9022]" name="feature" class="com.qaprosoft.carina.core.foundation.cucumber.CucumberRunner"/>
+        <method signature="CucumberRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qaprosoft.carina.demo.firstCry_Runner@102cec62]" name="feature" class="com.qaprosoft.carina.core.foundation.cucumber.CucumberRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="38129" started-at="2020-01-21T13:10:47Z" finished-at="2020-01-21T13:11:26Z">
-      <class name="com.qaprosoft.carina.demo.API_CreateUserCucumberTest">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qaprosoft.carina.demo.API_CreateUserCucumberTest@471a9022]" name="setUpClass" is-config="true" duration-ms="143" started-at="2020-01-21T13:10:48Z" finished-at="2020-01-21T13:10:48Z">
+    <test name="Default test" duration-ms="397665" started-at="2020-01-24T13:18:23Z" finished-at="2020-01-24T13:25:00Z">
+      <class name="com.qaprosoft.carina.demo.firstCry_Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qaprosoft.carina.demo.firstCry_Runner@102cec62]" name="setUpClass" is-config="true" duration-ms="87" started-at="2020-01-24T13:18:23Z" finished-at="2020-01-24T13:18:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qaprosoft.carina.demo.API_CreateUserCucumberTest@471a9022]" name="feature" duration-ms="32438" started-at="2020-01-21T13:10:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-01-21T13:11:20Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qaprosoft.carina.demo.firstCry_Runner@102cec62]" name="feature" duration-ms="12795" started-at="2020-01-24T13:18:23Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-01-24T13:18:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Create User Details]]>
+                <![CDATA[FirstCry login functionality]]>
               </value>
             </param>
           </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[java.lang.RuntimeException: There is no any class that satisfy to required conditions: [parent class - com.qaprosoft.carina.demo.mobile.gui.pages.common.firstCry_YearPage], [device type - ANDROID_PHONE]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: java.lang.RuntimeException: There is no any class that satisfy to required conditions: [parent class - com.qaprosoft.carina.demo.mobile.gui.pages.common.firstCry_YearPage], [device type - ANDROID_PHONE]
+at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+at com.qaprosoft.carina.core.foundation.cucumber.CucumberRunner.feature(CucumberRunner.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.RuntimeException: There is no any class that satisfy to required conditions: [parent class - com.qaprosoft.carina.demo.mobile.gui.pages.common.firstCry_YearPage], [device type - ANDROID_PHONE]
+at com.qaprosoft.carina.core.foundation.utils.factory.ICustomTypePageFactory.initPage(ICustomTypePageFactory.java:110)
+at com.qaprosoft.carina.demo.cucumber.steps.FirstCry_Step_Def.LoginPage(FirstCry_Step_Def.java:27)
+at ✽.Given lounch applicationon mobile(src/test/resources/features/FirstCry.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
+            <line>
+              <![CDATA[CPH1937 - 23096879 TEST [Default test - feature] FAILED at [18:54:56 2020-01-24] - java.lang.RuntimeException: There is no any class that satisfy to required conditions: [parent class - com.qaprosoft.carina.demo.mobile.gui.pages.common.firstCry_YearPage], [device type - ANDROID_PHONE]
+
+cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+com.qaprosoft.carina.core.foundation.cucumber.CucumberRunner.feature(CucumberRunner.java:56)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass(org.testng.ITestContext)[pri:0, instance:com.qaprosoft.carina.demo.API_CreateUserCucumberTest@471a9022]" name="tearDownClass" is-config="true" duration-ms="4988" started-at="2020-01-21T13:11:21Z" finished-at="2020-01-21T13:11:26Z">
+        <test-method status="PASS" signature="tearDownClass(org.testng.ITestContext)[pri:0, instance:com.qaprosoft.carina.demo.firstCry_Runner@102cec62]" name="tearDownClass" is-config="true" duration-ms="2654" started-at="2020-01-24T13:24:58Z" finished-at="2020-01-24T13:25:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@303c55fa]]>
+                <![CDATA[org.testng.TestRunner@3fd9e827]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.qaprosoft.carina.demo.API_CreateUserCucumberTest -->
+      </class> <!-- com.qaprosoft.carina.demo.firstCry_Runner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

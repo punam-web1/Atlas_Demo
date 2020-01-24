@@ -1,0 +1,3 @@
+{
+	"dateOfOpening":null,"openedBy":"Test","customerId":"1234","accountNumber":"123456789","loginId":"Test","loginPassword":"Test","email":"test@test.com","phone":"9833653536","bankAccountType":"SAVING","chequeBookIssued":true,"accountBalance":5,"balanceCheckedOn":null,"minimumBalance":3,"passwordGetsExpired":false,"expirationPeriodDays":13,"passwordUpdatedOn":null,"remarks":"Test","accountStatus":"ACTIVE","multipleSessionAllowed":true,"projectName":"Sample","projectCode":"123456","requestedOn":null,"requestedBy":"Test","accountHolderId":3,"bankBranchId":1,"mobileNumberMappedId":1,"parentAccountId":1
+}
