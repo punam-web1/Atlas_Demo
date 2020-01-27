@@ -23,7 +23,7 @@ public class QtracStepdef extends CucumberRunner {
 		System.out.println("Appliction launched");
 		M1CloudActivities mobile = new M1CloudActivities();
 		DesiredCapabilities capabilities = new DesiredCapabilities();
-		capabilities = mobile.setCapabilities("Samsung_Galaxy_J7_Prime.properties");
+		capabilities = mobile.setCapabilities("Samsung_Galaxy_Note_8.properties");
 		//getDriver("DEFAULT", capabilities, R.CONFIG.get("selenium_host"));
 		Login = initPage(getDriver("DEFAULT", capabilities, R.CONFIG.get("selenium_host")), QtracLoginPageBase.class);
 	}

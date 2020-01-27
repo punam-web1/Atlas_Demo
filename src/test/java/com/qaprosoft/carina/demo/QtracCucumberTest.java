@@ -20,12 +20,14 @@ import cucumber.api.CucumberOptions;
         )
 
 public class QtracCucumberTest extends CucumberBaseTest {
-@BeforeTest
-//@Parameters({"DeviceName"})
-public void setCustCaps() throws Exception{
-	M1CloudActivities mobile = new M1CloudActivities();
-DesiredCapabilities capabilities = new DesiredCapabilities();
-		capabilities = mobile.setCapabilities("Samsung_Galaxy_J7_Prime.properties");
-		getDriver("DEFAULT", capabilities, R.CONFIG.get("selenium_host"));
-	}
-	}
+
+}
+//@BeforeTest
+////@Parameters({"DeviceName"})
+//public void setCustCaps() throws Exception{
+//	M1CloudActivities mobile = new M1CloudActivities();
+//DesiredCapabilities capabilities = new DesiredCapabilities();
+//		capabilities = mobile.setCapabilities("Samsung_Galaxy_J7_Prime.properties");
+//		getDriver("DEFAULT", capabilities, R.CONFIG.get("selenium_host"));
+//	}
+//	}
