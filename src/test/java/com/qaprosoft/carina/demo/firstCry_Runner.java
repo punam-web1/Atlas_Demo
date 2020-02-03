@@ -21,4 +21,3 @@ glue = "com.qaprosoft.carina.demo.cucumber.steps",
 public class firstCry_Runner extends CucumberBaseTest {
 	
 		}
-

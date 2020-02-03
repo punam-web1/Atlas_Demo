@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jan 27 18:10:27 IST 2020</td>
+<td>Started on:</td><td>Mon Feb 03 17:57:57 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>4 seconds (4554 ms)</td>
+<tr><td>Total time:</td><td>8 seconds (8505 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,15 +75,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qaprosoft.carina.demo.firstCry_Runner.feature()'><b>feature</b><br>Test class: com.qaprosoft.carina.demo.firstCry_Runner<br>Test method: Runs Cucumber Feature<br>Parameters: FirstCry login functionality<br/>
-<a href="#Output-708350323" onClick='toggleBox("Output-708350323", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.qaprosoft.carina.demo.worklineRunner.feature()'><b>feature</b><br>Test class: com.qaprosoft.carina.demo.worklineRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Workline Hr<br/>
+<a href="#Output-1153802607" onClick='toggleBox("Output-1153802607", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-708350323" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-708350323">
- TEST [Default test - feature] FAILED at [18:10:29 2020-01-27] - org.openqa.selenium.WebDriverException: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+<a href="#Output-1153802607" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1153802607">
+ TEST [Default test - feature] FAILED at [17:58:02 2020-02-03] - org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'QKNBK299', ip: '10.0.6.172', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: driver.version: AndroidDriver
+System info: host: 'QKNBK299', ip: '10.0.6.53', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
 
 cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 com.qaprosoft.carina.core.foundation.cucumber.CucumberRunner.feature(CucumberRunner.java:56)
@@ -114,10 +114,10 @@ org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br/>
 </div>
 </td>
-<td><div><pre>cucumber.runtime.CucumberException: org.openqa.selenium.WebDriverException: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+<td><div><pre>cucumber.runtime.CucumberException: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;QKNBK299&apos;, ip: &apos;10.0.6.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
-Driver info: driver.version: AndroidDriver
+System info: host: &apos;QKNBK299&apos;, ip: &apos;10.0.6.53&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: RemoteWebDriver
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at com.qaprosoft.carina.core.foundation.cucumber.CucumberRunner.feature(CucumberRunner.java:56)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -145,43 +145,24 @@ Driver info: driver.version: AndroidDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.WebDriverException: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;QKNBK299&apos;, ip: &apos;10.0.6.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
-Driver info: driver.version: AndroidDriver
-	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+System info: host: &apos;QKNBK299&apos;, ip: &apos;10.0.6.53&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:86)
-	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:84)
-	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
+	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.DesktopFactory.create(DesktopFactory.java:100)
 	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
 	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
 	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
-	at com.qaprosoft.carina.demo.cucumber.steps.FirstCry_Step_Def.LoginPage(FirstCry_Step_Def.java:34)
-	at ?.Given launch application mobile(src/test/resources/features/FirstCry.feature:6)
-Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
-	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
-	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
-	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
-	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
-	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
-	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
-	at sun.security.ssl.Handshaker.process_record(Unknown Source)
-	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
-	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
-	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
-	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
-	at okhttp3.internal.connection.RealConnection.connectTls(RealConnection.java:318)
-	at okhttp3.internal.connection.RealConnection.establishProtocol(RealConnection.java:282)
-	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:167)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:78)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:66)
+	at com.qaprosoft.carina.demo.cucumber.steps.WorklineHrLogin.a_web_browser_on_the_Google_page_and_we_search_the_given_url_for_workline(WorklineHrLogin.java:57)
+	at ?.Given a web browser on the Google page and we search the given url for workline(src/test/resources/features/workline.feature:4)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
 	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
 	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
@@ -202,22 +183,17 @@ Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.Validator
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:150)
+	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringSeleniumCommandExecutor.execute(EventFiringSeleniumCommandExecutor.java:49)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:86)
-	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:84)
-	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
+	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.DesktopFactory.create(DesktopFactory.java:100)
 	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
 	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
 	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
-	at com.qaprosoft.carina.demo.cucumber.steps.FirstCry_Step_Def.LoginPage(FirstCry_Step_Def.java:34)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:78)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:66)
+	at com.qaprosoft.carina.demo.cucumber.steps.WorklineHrLogin.a_web_browser_on_the_Google_page_and_we_search_the_given_url_for_workline(WorklineHrLogin.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -230,7 +206,8 @@ Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.Validator
 	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
 	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
 	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:59)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:42)
 	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
 	at com.qaprosoft.carina.core.foundation.cucumber.CucumberRunner.feature(CucumberRunner.java:56)
@@ -259,24 +236,23 @@ Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.Validator
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
-	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
-	at sun.security.validator.Validator.validate(Unknown Source)
-	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
-	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
-	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
-	... 88 more
-Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
-	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
-	at java.security.cert.CertPathBuilder.build(Unknown Source)
-	... 94 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace708350323", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace708350323'><pre>cucumber.runtime.CucumberException: org.openqa.selenium.WebDriverException: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	... 74 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace1153802607", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1153802607'><pre>cucumber.runtime.CucumberException: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;QKNBK299&apos;, ip: &apos;10.0.6.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
-Driver info: driver.version: AndroidDriver
+System info: host: &apos;QKNBK299&apos;, ip: &apos;10.0.6.53&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: RemoteWebDriver
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at com.qaprosoft.carina.core.foundation.cucumber.CucumberRunner.feature(CucumberRunner.java:56)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -304,43 +280,24 @@ Driver info: driver.version: AndroidDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.WebDriverException: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;QKNBK299&apos;, ip: &apos;10.0.6.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
-Driver info: driver.version: AndroidDriver
-	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+System info: host: &apos;QKNBK299&apos;, ip: &apos;10.0.6.53&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:86)
-	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:84)
-	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
+	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.DesktopFactory.create(DesktopFactory.java:100)
 	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
 	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
 	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
-	at com.qaprosoft.carina.demo.cucumber.steps.FirstCry_Step_Def.LoginPage(FirstCry_Step_Def.java:34)
-	at ?.Given launch application mobile(src/test/resources/features/FirstCry.feature:6)
-Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
-	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
-	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
-	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
-	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
-	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
-	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
-	at sun.security.ssl.Handshaker.process_record(Unknown Source)
-	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
-	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
-	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
-	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
-	at okhttp3.internal.connection.RealConnection.connectTls(RealConnection.java:318)
-	at okhttp3.internal.connection.RealConnection.establishProtocol(RealConnection.java:282)
-	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:167)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:78)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:66)
+	at com.qaprosoft.carina.demo.cucumber.steps.WorklineHrLogin.a_web_browser_on_the_Google_page_and_we_search_the_given_url_for_workline(WorklineHrLogin.java:57)
+	at ?.Given a web browser on the Google page and we search the given url for workline(src/test/resources/features/workline.feature:4)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
 	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
 	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
@@ -361,22 +318,17 @@ Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.Validator
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:150)
+	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringSeleniumCommandExecutor.execute(EventFiringSeleniumCommandExecutor.java:49)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:86)
-	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:84)
-	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
+	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.DesktopFactory.create(DesktopFactory.java:100)
 	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
 	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
 	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
-	at com.qaprosoft.carina.demo.cucumber.steps.FirstCry_Step_Def.LoginPage(FirstCry_Step_Def.java:34)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:78)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:66)
+	at com.qaprosoft.carina.demo.cucumber.steps.WorklineHrLogin.a_web_browser_on_the_Google_page_and_we_search_the_given_url_for_workline(WorklineHrLogin.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -389,7 +341,8 @@ Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.Validator
 	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
 	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
 	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:59)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:42)
 	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
 	at com.qaprosoft.carina.core.foundation.cucumber.CucumberRunner.feature(CucumberRunner.java:56)
@@ -418,22 +371,21 @@ Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.Validator
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
-	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
-	at sun.security.validator.Validator.validate(Unknown Source)
-	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
-	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
-	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
-	... 88 more
-Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
-	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
-	at java.security.cert.CertPathBuilder.build(Unknown Source)
-	... 94 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	... 74 more
 </pre></div></td>
-<td>2</td>
-<td>com.qaprosoft.carina.demo.firstCry_Runner@102cec62</td></tr>
+<td>4</td>
+<td>com.qaprosoft.carina.demo.worklineRunner@cd1e646</td></tr>
 </table><p>
 </body>
 </html>

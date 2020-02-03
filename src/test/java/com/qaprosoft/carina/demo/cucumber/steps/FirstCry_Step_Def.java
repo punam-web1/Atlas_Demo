@@ -5,6 +5,9 @@ import org.testng.annotations.Test;
 
 import com.qaprosoft.carina.core.foundation.cucumber.CucumberRunner;
 import com.qaprosoft.carina.core.foundation.utils.R;
+import com.qaprosoft.carina.demo.mobile.gui.pages.android.firstCryFourthPage;
+import com.qaprosoft.carina.demo.mobile.gui.pages.android.firstCryThirdPage;
+import com.qaprosoft.carina.demo.mobile.gui.pages.android.firstCry_SecondPage;
 import com.qaprosoft.carina.demo.mobile.gui.pages.common.QtracLoginPageBase;
 import com.qaprosoft.carina.demo.mobile.gui.pages.common.WelcomePageBase;
 import com.qaprosoft.carina.demo.mobile.gui.pages.common.firstCryDatePage;
@@ -28,10 +31,13 @@ public class FirstCry_Step_Def extends CucumberRunner {
 	public void LoginPage() throws Exception {
 		System.out.println("Appliction launched");
 		M1CloudActivities mobile = new M1CloudActivities();
-		DesiredCapabilities capabilities = new DesiredCapabilities();
+	DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities = mobile.setCapabilities("Samsung_Galaxy_Note_8.properties");
-		//getDriver("DEFAULT", capabilities, R.CONFIG.get("selenium_host"));
-		user = initPage(getDriver("DEFAULT", capabilities, R.CONFIG.get("selenium_host")), firstcry_firstFlow_Base.class);
+		getDriver("DEFAULT", capabilities, R.CONFIG.get("selenium_host"));
+//		user = initPage(getDriver(), firstcry_firstFlow_Base.class);
+//		user1=initPage(getDriver(), firstCry_SecondPage.class);
+//		user2=initPage(getDriver(), firstCryThirdPage.class);
+//		user3=initPage(getDriver(), firstCryFourthPage.class);
 	
 	}
 	
@@ -44,7 +50,7 @@ public class FirstCry_Step_Def extends CucumberRunner {
 	@Then("^select baby year$")
 	public void clickyear()
 	{
-		//user1.yearClick();		
+		user1.yearClick();		
 	}
 	@Then("^i enter Data of Birth and child name$")
 	public void clickBirth1()

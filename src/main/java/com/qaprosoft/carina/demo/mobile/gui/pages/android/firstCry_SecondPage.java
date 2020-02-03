@@ -3,10 +3,12 @@ package com.qaprosoft.carina.demo.mobile.gui.pages.android;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
+import com.qaprosoft.carina.core.foundation.utils.factory.DeviceType;
+import com.qaprosoft.carina.core.foundation.utils.factory.DeviceType.Type;
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
 import com.qaprosoft.carina.demo.mobile.gui.pages.common.firstCry_YearPage;
 import com.qaprosoft.carina.demo.mobile.gui.pages.common.firstcry_firstFlow_Base;
-
+@DeviceType(pageType = Type.ANDROID_PHONE, parentClass = firstCry_YearPage.class)
 public class firstCry_SecondPage extends firstCry_YearPage {
 	
 	public firstCry_SecondPage(WebDriver driver) {
